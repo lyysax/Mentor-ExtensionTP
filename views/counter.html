@@ -1,35 +1,20 @@
 <!doctype html>
-<html lang="fr">
+
+<html>
   <head>
     <meta charset="utf-8" />
-    <title>Mentor'Tools</title>
     <link rel="stylesheet" href="../styles/counter.css" />
-    <script src="../scripts/counter.js" defer></script>
+    <script type = "text/javascript" src="../scripts/counter.js"></script>
   </head>
-
   <body>
     <div id="popup-content">
       <div class="counter">
-        <h2 class="counter-text">Nombre de « eh »</h2>
-        <h3 id="nbEh" class="counter-value">0</h3>
-        <button id="nbEh_Button" class="inc_button" disabled>+</button>
+        <h2 id="nbEh_Text">Nombre de "Eh"</h2>
+        <h3 id="nbEh">0</h3>
+        <button id="nbEh_Button" class="inc_button" >+</button>
       </div>
 
-      <div class="counter">
-        <h2 class="counter-text">Nombre de « du coup »</h2>
-        <h3 id="nbDuCoup" class="counter-value">0</h3>
-        <button id="nbDuCoup_Button" class="inc_button" disabled>+</button>
-      </div>
-
-      <div class="counter">
-        <h2 class="counter-text">Nombre de « donc »</h2>
-        <h3 id="nbDonc" class="counter-value">0</h3>
-        <button id="nbDonc_Button" class="inc_button" disabled>+</button>
-      </div>
-
-      <button id="reset_Button" class="reinit" disabled>
-        Tout réinitialiser
-      </button>
+      <button id="reset_Button" class="reinit">Reinitialize</button>
     </div>
   </body>
 </html>
