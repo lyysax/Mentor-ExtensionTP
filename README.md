@@ -4,6 +4,26 @@ Une extension de navigateur proposant des outils pour accompagner les mentors au
 
 La version actuelle propose un compteur pour les « eh ».
 
+## Architecture du projet
+
+C:.
+│ .gitignore
+│ main.js
+│ manifest.json
+│ README.md
+│  
+├───images
+│ p1.png
+│  
+├───scripts
+│ counter.js
+│  
+├───styles
+│ counter.css
+│  
+└───views
+counter.html
+
 ## Installation
 
 1. Télécharge le projet depuis GitHub avec **Code → Download ZIP**.
@@ -18,6 +38,4 @@ La version actuelle propose un compteur pour les « eh ».
 
 1. Ouvre le menu des extensions dans la barre d’outils du navigateur.
 2. Clique sur **Mentor Extension** pour ouvrir son interface.
-3. Utilise le compteur « eh ».
-
-Tu peux épingler l’extension dans la barre d’outils pour y accéder plus facilement.
+3. Utilise les compteurs.
